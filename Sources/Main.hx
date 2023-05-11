@@ -60,7 +60,7 @@ class Main {
         theme = createTheme('theme');
         theme_editor = createTheme('theme_editor');
         final font = Assets.fonts.jetbrains;
-        editor = new Zui({font: font, theme: theme_editor, color_wheel: Assets.images.color_wheel});
+        editor = new Zui({font: font, theme: theme_editor});
         preview = new Zui({font: font, theme: theme });
         preview.alwaysRedraw = true;
         kha.System.notifyOnFrames(render);
