@@ -14,7 +14,7 @@ jobs:
         run: |
           Kha/make.sh html5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact
+        uses: actions/upload-pages-artifact@v1.0.8
         with:
           path: build/html5
   deploy:
