@@ -5,6 +5,6 @@ project.addLibrary('Libraries/zui');
 project.addAssets('Assets/color_wheel.png');
 project.addAssets('Assets/jetbrains.ttf');
 if (platform === Platform.HTML5) {
-    project.addAssets('Assets/index.html');
+    project.addAssets('Assets/html5/**');
 }
 resolve(project);
